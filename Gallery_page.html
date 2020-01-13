@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sapir & Shmuel" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>נמלטים - גלריה</title>
+    <style>
+        body {
+            direction: rtl;
+            background-color: black;
+            background-image: url("backmike.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 0;
+            padding-bottom: 56.25%;
+            box-sizing: border-box;
+            background-size: cover;
+        }
+
+        .header {
+            background-color: transparent;
+            text-align: center;
+            padding: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+            position: sticky;
+            top: 0;
+            font-style: normal;
+            font-size: larger;
+            font-weight: 500;
+        }
+
+        li {
+            display: inline-grid;
+            float: right;
+        }
+
+            li a {
+                display: block;
+                text-align: center;
+                padding: 20px 25px;
+                text-decoration: none;
+                color: white;
+                width: 241px
+            }
+
+                li a:hover {
+                    background-color: black;
+                    text-transform: uppercase;
+                    transition: 0.2s;
+                    color:white;
+                }
+
+                    li a:hover:not(.active) {
+                        background-color: #111;
+                        color: white;
+                    }
+        .active {
+            background-color: lightgray;
+            color: black;
+        }
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;
+            text-align: center;
+            color: floralwhite;
+        }
+        h2 {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:30px;
+            color: floralwhite;
+            text-align:center;
+        }
+        .column {
+        float: right;
+        width: 19%;
+        padding: 5px;
+        }
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+        img {
+        border-radius: 8px;
+        width:285px;
+        }
+        video {
+        width: 100%;
+        height: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <img src="logobackmike.jpg" alt="Prison Break">
+    </div>
+    <ul class="fa-ul">
+        <li>
+            <a href="Prison_Break_main.html">
+                <i class="fa fa-fw fa-home"></i>   דף הבית
+            </a>
+        </li>
+        <li>
+            <a href="About.html">
+                <i class="fas fa-th-list"></i> רשימת עונות ופרקים
+            </a>
+        </li>
+        <li>
+            <a href="Actors.html">
+                <i class="fas fa-users"></i>   שחקנים
+            </a>
+        </li>
+        <li>
+            <a class="active" href="Gallery_page.html">
+                <i class="fas fa-images"></i>   גלריה
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fas fa-envelope"></i>   צרו קשר
+            </a>
+        </li>
+    </ul>
+    <h1>הגלריה</h1>
+    <br />
+    <!---גלריה עונה 1--->
+    <h2>עונה 1</h2>
+    <div class="row">
+        <div class="column">
+            <video width="400" controls>
+                <source src="trailer1.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="column">
+            <a target="_blank" href="mikelink.jpg">
+                <img src="mikelink.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks12.jpg">
+            <img src="prisonbreaks12.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks13.jpg">
+                <img src="prisonbreaks13.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks14.jpg">
+                <img src="prisonbreaks14.jpg">
+            </a>
+        </div>
+    </div>
+    <!---גלריה עונה 2--->
+    <h2>עונה 2</h2>
+    <div class="row">
+        <div class="column">
+            <video width="400" controls>
+                <source src="trailer2.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="column">
+            <a target="_blank" href="mikel.jpg">
+                <img src="mikel.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks23.jpg">
+                <img src="prisonbreaks23.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks24.jpg">
+                <img src="prisonbreaks24.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks25.jpg">
+                <img src="prisonbreaks25.jpg">
+            </a>
+        </div>
+    </div>
+    <!---גלריה עונה 3--->
+    <h2>עונה 3</h2>
+    <div class="row">
+        <div class="column">
+            <video width="500" controls>
+                <source src="trailer3.webm" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks32.jpg">
+                <img src="prisonbreaks32.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks33.jpg">
+                <img src="prisonbreaks33.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks37.jpg">
+                <img src="prisonbreaks37.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks35.jpg">
+                <img src="prisonbreaks35.jpg">
+            </a>
+        </div>
+    </div>
+    <!---גלריה עונה 4--->
+    <h2>עונה 4</h2>
+    <div class="row">
+        <div class="column">
+            <video width="400" controls>
+                <source src="trailer4.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks42.jpg">
+                <img src="prisonbreaks42.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks43.jpg">
+                <img src="prisonbreaks43.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks44.jpg">
+                <img src="prisonbreaks44.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks45.jpg">
+                <img src="prisonbreaks45.jpg">
+            </a>
+        </div>
+    </div>
+    <!---גלריה עונה 5--->
+    <h2>עונה 5</h2>
+    <div class="row">
+        <div class="column">
+            <video width="400" controls>
+                <source src="trailer5.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="column">
+            <a target="_blank" href="link5.png">
+                <img src="link5.png">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks52.jpg">
+                <img src="prisonbreaks52.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks53.jpg">
+                <img src="prisonbreaks53.jpg">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="prisonbreaks54.jpg">
+                <img src="prisonbreaks54.jpg">
+            </a>
+        </div>
+    </div>
+</body>
+</html >

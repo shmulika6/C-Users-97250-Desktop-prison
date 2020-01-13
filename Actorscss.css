@@ -1,0 +1,50 @@
+﻿body {
+    direction: rtl;
+    background-color: black;
+    background-image: url("backmike.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 68%;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.header {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    direction: rtl;
+    text-align: center;
+    color: floralwhite;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa:hover {
+    opacity: 0.7;
+} 
+.fa-imdb {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    text-align:center;
+}
